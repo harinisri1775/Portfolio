@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</head>
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand text-primary" href="./index.html"><b>Start Bootstrap</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./resumeProject.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./project22project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Project2contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="form">
+        <img src="/envelope-solid.png" height="40px" width="40px" class="bg-primary-subtle mt-5"><br>
+        <h1>Get in touch</h1><br>
+        <p>Let's work together!</p><br>
+
+    </header>
+    <form style="border-radius: 50px;" class="gap-4">
+        <input type="text" class="rounded-2 w-50 p-3" placeholder="Full name" pattern="[A-Za-z]">
+        <input type="email" class="rounded-2 w-50 p-3" placeholder="Email address">
+        <input type="Phone Number" class="rounded-2 w-50 p-3" placeholder="Phone Number" pattern="[0-9]{10}">
+        <textarea class="rounded-2 w-50 p-3" placeholder="Message" style="height: 100px;"></textarea>
+        <button type="button" class="rounded-2 btn btn-primary w-50 p-3">Submit</button>
+    </form>
+    <footer class="text-center p-4">Copyright © Your Website 2023</footer>
+</body>
+
+</html>
